@@ -1,0 +1,11 @@
+SMILES,Mol,HBD,HBA,MW,logP,nRotB,is_reactive_or_toxic
+Cc1[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c(C)c1C(=O)NCC(N)=O,<rdkit.Chem.rdchem.Mol object at 0x7d4c86ec2110>,4,3,356.12846862400005,1.4784400000000002,4,False
+CNCC(=O)N1CCN(c2ncc3ncnc(Nc4ccc(F)c(Cl)c4)c3n2)CC1,<rdkit.Chem.rdchem.Mol object at 0x7d4c870afed0>,2,8,430.14326316,1.8238999999999999,5,False
+Cc1[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c(C)c1C(=O)NCCN1CCNCC1,<rdkit.Chem.rdchem.Mol object at 0x7d4c86ec22d0>,4,4,411.20705329200007,1.8983400000000001,5,False
+CN1CCN(c2ncc3ncnc(Nc4ccccc4)c3n2)CC1,<rdkit.Chem.rdchem.Mol object at 0x7d4c870afdf0>,1,7,321.17019360800003,1.9151999999999998,3,False
+NCN1CCN(c2ncc3ncnc(Nc4ccc(F)c(Cl)c4)c3n2)CC1,<rdkit.Chem.rdchem.Mol object at 0x7d4c86ec3ed0>,2,8,388.13269847600003,1.9940999999999995,4,False
+OCCN1CCN(c2ncc3ncnc(Oc4ccc(F)c(Cl)c4)c3n2)CC1,<rdkit.Chem.rdchem.Mol object at 0x7d4c86ec5460>,1,8,404.11637971600004,2.1188999999999996,5,False
+O=CN1CCN(c2ncc3ncnc(Nc4ccc(F)c(Cl)c4)c3n2)CC1,<rdkit.Chem.rdchem.Mol object at 0x7d4c86ec4d60>,1,7,387.101064,2.2342999999999993,4,False
+Cc1[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c(C)c1C(=O)NCCn1cncn1,<rdkit.Chem.rdchem.Mol object at 0x7d4c86ec2420>,3,5,394.1553520680001,2.28484,5,False
+Fc1ccc(Nc2ncnc3cnc(N4CCNCC4)nc23)cc1Cl,<rdkit.Chem.rdchem.Mol object at 0x7d4c86ec3990>,2,7,359.10614938000003,2.3655,3,False
+CS(=O)(=O)CCNc1ncc2ncnc(Nc3ccc(F)c(Cl)c3)c2n1,<rdkit.Chem.rdchem.Mol object at 0x7d4c86ec1ee0>,2,8,396.057150588,2.4124,6,False
