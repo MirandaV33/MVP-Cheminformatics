@@ -2,10 +2,7 @@
 
 # Drug Repurposing Project with REINVENT and Connectivity Map
 
-This project explores the repurposing of drugs for a given biological condition using gene expression data and the Connectivity Map. Molecules were generated using REINVENT 4 based on the top candidates identified by a Random Forest classifier.
-
-> The full pipeline was implemented and executed in **Google Colab**.  
-> To reproduce the REINVENT generation step, please follow the installation and usage instructions in the [official REINVENT repository]([https://github.com/MolecularAI/Reinvent](https://github.com/MolecularAI/REINVENT4/tree/main)).
+This project explores the repurposing of drugs for a Hepatitis disease using gene expression data. Molecules were generated using REINVENT 4 based on the top candidates identified by Connectivity Map from CLUE.io
 
 ## Repository Structure
 
@@ -23,3 +20,20 @@ This project explores the repurposing of drugs for a given biological condition 
 
 > Due to how Google Colab handles paths and Google Drive integration, this code may not directly run in Jupyter Notebook without adaptation.
 
+
+> **Important:**  
+> The main notebook is developed to run in Google Colab, so it may require adaptations to run properly in a local Jupyter Notebook environment.  
+>  
+> - If you want to run the notebook locally, we recommend downloading all files to your own Google Drive or local folder.  
+> - You need to install all dependencies listed in `requirements.txt`.  
+> - Also, you must modify the code to remove or adapt Colab-specific commands such as `!pip install` and Google Drive integration (`drive.mount()`), as they do not work the same way in Jupyter Notebook.
+
+---
+
+## Usage
+
+To reproduce the REINVENT generation step, please follow the installation and usage instructions in the official REINVENT4 repository.
+
+---
+
+If you have any questions or issues adapting the code for local Jupyter Notebook use, feel free to reach out.
