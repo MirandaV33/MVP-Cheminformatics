@@ -1,0 +1,16 @@
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+statsmodels
+scikit-learn
+tqdm
+GEOparse
+cmapPy
+rdkit-pypi
+useful_rdkit_utils
+scikit-posthocs
+chembl_webresource_client
+chembl_downloader
+pubchempy
