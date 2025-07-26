@@ -23,10 +23,12 @@ This project explores the repurposing of drugs for a Hepatitis disease using gen
 
 > **Important:**  
 > The main notebook is developed to run in Google Colab, so it may require adaptations to run properly in a local Jupyter Notebook environment.  
->  
-> - If you want to run the notebook locally, we recommend downloading all files to your own Google Drive or local folder.  
+
+> - I recommend downloading all needed files to Google Drive and just run the notebook, it’s the easiest way. 
+> - If you want to run the notebook locally, download all files to your local folder.  
 > - You need to install all dependencies listed in `requirements.txt`.  
 > - Also, you must modify the code to remove or adapt Colab-specific commands such as `!pip install` and Google Drive integration (`drive.mount()`), as they do not work the same way in Jupyter Notebook.
+
 
 ---
 
