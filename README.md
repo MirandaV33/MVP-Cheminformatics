@@ -1,7 +1,5 @@
 # MVP-Cheminformatics
 
-# Drug Repurposing Project with REINVENT and Connectivity Map
-
 This project explores the repurposing of drugs for a Hepatitis disease using gene expression data. Molecules were generated using REINVENT 4 based on the top candidates identified by Connectivity Map from CLUE.io
 
 ## Repository Structure
