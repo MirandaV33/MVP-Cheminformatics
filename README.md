@@ -10,17 +10,17 @@ Two main workflows were developed:
 -- First Version (first_version/)
 
 Focus: Drug repurposing and de novo molecule generation
-	•	data/ → Source data and CMap results used to identify candidate compounds.
-	•	generate_molecules/ → REINVENT input/output files, generated molecules, and run logs.
-	•	notebooks/ → Main Google Colab notebook performing molecule generation and scoring.
-	•	results/ → Tables, plots, and summary outputs of the generation process.
+- 	data/ : Source data and CMap results used to identify candidate compounds.
+-	generate_molecules/ : REINVENT input/output files, generated molecules, and run logs.
+-   notebooks/ : Main Google Colab notebook performing molecule generation and scoring.
+-	results/ : Tables, plots, and summary outputs of the generation process.
 
 -- Second Version (second_version/)
 
-Focus: Gene expression analysis and enrichment in R
-	•	data/ → Expression matrix and metadata used for DEG analysis.
-	•	results/ → Processed data, enrichment results, and visualization outputs.
-	•	notebooks/ → R notebook (or Colab notebook with R kernel) containing the full workflow.
+Focus: Gene expression analysis and enrichment in R-Python
+-	data/:  Expression matrix and metadata used for DEG analysis.
+-	results/ : Processed data, enrichment results, and visualization outputs.
+-	notebooks/ : Main Google Colab notebook. 
 
 ## Results Summary
 
