@@ -25,23 +25,23 @@ Focus: Gene expression analysis and enrichment in R
 ## Results Summary
 
 **Version 1:** Drug Scoring and REINVENT
-	•	Differential analysis from GEO data showed minimal differences between control and infected samples, limiting the signal for Connectivity Map (CLUE.io).
-	•	Out of 7 suggested drugs, 2 were directly related to Hepatitis B (notably HSP90 inhibitors such as Geldanamycin), while the others had indirect antiviral or immune-modulatory effects.
-	•	The generated compounds displayed:
-	•	High drug-likeness (QED > 0.9)
-	•	Good synthetic accessibility (SA < 3)
-	•	Novel structural diversity, with Tanimoto similarity 0.2–0.39 vs. ChEMBL/FDA-approved drugs.
-	•	These results suggest REINVENT successfully proposed structurally novel and pharmaceutically viable candidates.
+-	Differential analysis from GEO data showed minimal differences between control and infected samples, limiting the signal for Connectivity Map (CLUE.io).
+-	Out of 7 suggested drugs, 2 were directly related to Hepatitis B (notably HSP90 inhibitors such as Geldanamycin), while the others had indirect antiviral or immune-modulatory effects.
+-	The generated compounds displayed:
+	-	High drug-likeness (QED > 0.9)
+	-	Good synthetic accessibility (SA < 3)
+	-	Novel structural diversity, with Tanimoto similarity 0.2–0.39 vs. ChEMBL/FDA-approved drugs.
+- These results suggest REINVENT successfully proposed structurally novel and pharmaceutically viable candidates.
 
 **Version 2:**  DEG and Functional Enrichment
-	•	Differential expression was performed using limma (R) for robust statistical testing.
-	•	Functional enrichment was done with Reactome GSEA, classifying pathways into:
-	•	Interferon / Innate Immune
-	•	Lipid / Nucleotide Metabolism
-	•	Xenobiotic Enzymes
-	•	Oxysterol / Prostaglandin
-	•	The dot plot highlights these categories, showing the number of genes involved in each — making it easier to focus on key biological processes affected by HBV.
-	•	The analysis indicates that the pathways of interest (Interferon response, lipid metabolism) are indeed modulated, but the genes targeted by the previously identified compounds are not direct HBV targets — suggesting the drugs act through secondary immune or metabolic mechanisms.
+- 	Differential expression was performed using limma (R) for robust statistical testing.
+-	Functional enrichment was done with Reactome GSEA, classifying pathways into:
+	-	Interferon / Innate Immune
+	-	Lipid / Nucleotide Metabolism
+	-	Xenobiotic Enzymes
+	-	Oxysterol / Prostaglandin
+-	The dot plot highlights these categories, showing the number of genes involved in each — making it easier to focus on key biological processes affected by HBV.
+-	The analysis indicates that the pathways of interest (Interferon response, lipid metabolism) are indeed modulated, but the genes targeted by the previously identified compounds are not direct HBV targets — suggesting the drugs act through secondary immune or metabolic mechanisms.
 
 > **Important:**  
 > The main notebook is developed to run in Google Colab, so it may require adaptations to run properly in a local Jupyter Notebook environment.  
